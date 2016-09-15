@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>   
+	<meta name="viewport" content="width=device-width-10,initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.lime-amber.min.css" />
+	<link rel="stylesheet" type="text/css" href="feedback-form.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+<body>
+	<form action="feedback.php" method="post" name="reviewing">
+ 	<div class="mdl-textfield mdl-js-textfield">
+	<br><input class="mdl-textfield__input" type="text" id="nm" name="nm">
+    <label class="mdl-textfield__label" for="nm">Name...</label>
+    </div>    <br><br>	
+    <div class="mdl-textfield mdl-js-textfield">
+	<br><input class="mdl-textfield__input" type="text" id="em" name="em">
+    <label class="mdl-textfield__label" for="em">Email...</label>
+	</div>
+	<br><br>
+	<div class="mdl-textfield mdl-js-textfield">
+	<textarea class="mdl-textfield__input" type="text" rows= "3" id="rev" name="rev"></textarea>
+    <label class="mdl-textfield__label" for="rev">Review...</label>
+    </div><br><br>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Submit</button>
+
+
+</form>
+	
+	<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+</body>
+</html>

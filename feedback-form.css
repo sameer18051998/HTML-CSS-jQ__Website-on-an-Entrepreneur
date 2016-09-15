@@ -1,0 +1,21 @@
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+body{	
+		font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    animation: fade 1.5s ease-in forwards;
+        overflow-x: hidden;
+	   box-shadow: inset 0px 0px 0px 9px #EFDC05;
+
+}
+form{
+	padding: 100px;
+}
